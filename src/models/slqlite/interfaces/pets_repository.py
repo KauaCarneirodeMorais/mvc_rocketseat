@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import List
-from src.models.slqlite.repositories.pets_repository import PetsTable
+from src.models.slqlite.entities.pets import PetsTable
 
 class PetsRepositoryInterface(ABC):
     @abstractmethod
