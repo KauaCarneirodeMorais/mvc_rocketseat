@@ -27,8 +27,8 @@ class PersonFinderController(PersonFinderControllerInterface):
                 "attributes": {
                     "first_name": person.first_name,
                     "last_name": person.last_name,
-                    "pet_name": person.pet_name,
-                    "pet_type": person.pet_type
+                    "pets_name": person.pets_name,
+                    "pets_type": person.pets_type
                 }
             }
         }
